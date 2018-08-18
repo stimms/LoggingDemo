@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NLog;
+using System;
 
 namespace LoggingDemo.Nlog
 {
@@ -6,7 +7,11 @@ namespace LoggingDemo.Nlog
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            LogManager.LoadConfiguration("nlog.config");
+            var log = LogManager.GetCurrentClassLogger();
+            log.Debug("Starting up");
+            log.Debug("Shutting down");
+            Console.ReadLine();
         }
     }
 }
