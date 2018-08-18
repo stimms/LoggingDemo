@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingDemo.Log4Net", "LoggingDemo.Log4Net\LoggingDemo.Log4Net.csproj", "{51194D25-211F-4A46-A4AD-F2DB48FFEE79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingDemo.Serilog", "LoggingDemo.Serilog\LoggingDemo.Serilog.csproj", "{7CAFB382-7F42-4425-9F78-AC655B4DE141}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingDemo.Nlog", "LoggingDemo.Nlog\LoggingDemo.Nlog.csproj", "{F39D4AB9-1A56-447D-9BEF-BA3DB1F0A3B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{51194D25-211F-4A46-A4AD-F2DB48FFEE79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51194D25-211F-4A46-A4AD-F2DB48FFEE79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51194D25-211F-4A46-A4AD-F2DB48FFEE79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CAFB382-7F42-4425-9F78-AC655B4DE141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CAFB382-7F42-4425-9F78-AC655B4DE141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CAFB382-7F42-4425-9F78-AC655B4DE141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CAFB382-7F42-4425-9F78-AC655B4DE141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F39D4AB9-1A56-447D-9BEF-BA3DB1F0A3B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39D4AB9-1A56-447D-9BEF-BA3DB1F0A3B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39D4AB9-1A56-447D-9BEF-BA3DB1F0A3B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39D4AB9-1A56-447D-9BEF-BA3DB1F0A3B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
